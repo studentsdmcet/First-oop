@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Sigh-up page</title>
+                 
+</head>
+<body>
+    <form action="Signupdetails.php" method="post">
+        <fieldset>
+         <legend>Sigh-upDetails</legend>
+             <table>
+                 <th style="color: darkblue;">Login Details</th>
+                 <tr>
+         
+                    <td><label>Enter your name:</label></td>
+                    <td><input type="text" name="txtname"></td>
+                 </tr>
+                 <tr>
+                    <td><label>Enter your Number:</label></td>
+                    <td><input type="number" name="txtnumber"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td><input type="radio" name="rdgender">Male</td>
+                    <td><input type="radio" name="rdgender">Female</td>
+
+                </tr>
+                <tr>
+                    <td><label>Address:</label></td>
+                    <td><textarea name="txtareaAddress"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>State:</label></td>
+                    <td>
+                        <select>
+                            <option value="0">--Select State--</option>
+                            <option value="1">Karnataka</option>
+                            <option value="2">Maharashtra</option>
+                            <option value="3">TamilNadu</option>
+                            
+                             </select>
+                    </td>
+                </tr>
+                <tr>
+                   <td><label>Select Your Language</label></td>
+                   <td><input type="checkbox" name="chk_kann">Kannada</td>
+                   <td><input type="checkbox" name="chk_hindi">hindi</td>
+                   <td><input type="checkbox" name="chk_eng">english</td>
+                   
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="Sighup"></td>
+                    <td><input type="reset" name="reset" value="Clear"></td>
+                   
+                </tr>
+             </table>
+             <table border="1">
+                <th>Student Details</th>
+                <tr>
+                    <th>Names</th>
+                    <th>USN</th>
+                    <th>Branch</th>
+                     
+                </tr>
+                <tr>
+                    <td rowspan="3">Nivedita</td>
+                    <td>2SD22CS053</td>
+                    <td>CSE</td>
+                </tr>
+
+             </table> 
+        </fieldset>  
+    </form>
+    
+</body>
+</html>
